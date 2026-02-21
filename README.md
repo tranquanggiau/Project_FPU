@@ -1,11 +1,11 @@
-###Floating Point Unit (FPU) – FPGA Implementation (Quartus II)
-####Project Summary
+# **Floating Point Unit (FPU) – FPGA Implementation (Quartus II)**
+## Project Summary
 
 Designed and implemented a 32-bit IEEE 754 Floating Point Unit (FPU) using Quartus II targeting FPGA hardware.
 
 This project focuses on hardware architecture design, synthesis, timing analysis, and functional verification, demonstrating practical FPGA development workflow suitable for Hardware / FPGA Engineer roles.
 
-####Key Highlights
+## Key Highlights
 
 ✔ Implemented IEEE 754 Single-Precision arithmetic on FPGA
 
@@ -28,7 +28,7 @@ Mantissa:	23 bits
 Bias = 127
 Normalized representation with hidden leading bit.
 
-####Supported Operations
+## Supported Operations
 
 Floating Point Addition
 
@@ -36,7 +36,7 @@ Floating Point Subtraction
 
 Floating Point Multiplication
 
-####Hardware Architecture
+## Hardware Architecture
 
 The FPU design consists of the following hardware stages:
 
@@ -70,7 +70,7 @@ Exponent update
 
 Reassemble IEEE 754 output format
 
-####Development Environment
+## Development Environment
 
 Design Tool: Quartus II
 
@@ -78,7 +78,7 @@ Simulation: ModelSim-Altera
 
 Target FPGA: (e.g., Cyclone IV – update accordingly)
 
-####Implementation Results
+## Implementation Results
 ✔ Functional Verification
 
 Tested with multiple operand combinations
